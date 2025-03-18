@@ -3,26 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up for OwnIt Homes Text Alerts</title>
+    <meta name="description" content="Sign up for Ownit Homes to receive notifications about new properties and offers.">
+    <title>Ownit Homes - Sign Up</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Navigation Bar -->
     <header>
-        <h1>Sign Up for Text Alerts from OwnIt Homes</h1>
+        <div class="logo">
+            <h1>Ownit Homes</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms & Conditions</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+            </ul>
+        </nav>
     </header>
-    
-    <main class="form-container">
-        <form action="/submit" method="post">
-            <label for="phone">Enter your phone number to opt-in:</label>
-            <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+
+    <!-- Sign Up Form Section -->
+    <section class="signup">
+        <h2>Sign Up</h2>
+        <form action="#" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
             <button type="submit">Sign Up</button>
         </form>
-        <p>By submitting your phone number, you agree to receive text messages from OwnIt Homes. Message and data rates may apply. Message frequency varies.</p>
-    </main>
+    </section>
 
+    <!-- Footer -->
     <footer>
-        <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms and Conditions</a></p>
+        <p>&copy; 2025 Ownit Homes. All rights reserved.</p>
     </footer>
 </body>
 </html>
+
 
