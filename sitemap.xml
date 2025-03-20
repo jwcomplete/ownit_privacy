@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://ownit.homes/</loc>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://ownit.homes/calculators</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://ownit.homes/property-reports</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://ownit.homes/consulting</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://ownit.homes/agent-tools</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://ownit.homes/partners</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://ownit.homes/education</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://ownit.homes/discounts</loc>
+        <priority>0.8</priority>
+    </url>
+</urlset>
