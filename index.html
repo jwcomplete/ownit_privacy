@@ -1,218 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OwnIt.Homes | Real Estate Tools</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif; 
-            margin: 0;
-            padding: 0;
-            background-color: #f7f7f7;
-        }
-
-        /* Header Section */
-        header {
-            background-color: #4CAF50;
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-
-        /* Main Layout */
-        .container {
-            display: flex;
-            padding: 20px;
-        }
-
-        .main-content {
-            flex: 3;
-            margin-right: 20px;
-        }
-
-        .sidebar {
-            flex: 1;
-            background-color: #fff;
-            padding: 15px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-
-        /* Product Card Section */
-        .product-card {
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
-            padding: 20px;
-            text-align: center;
-            transition: transform 0.3s ease;
-        }
-
-        .product-card:hover {
-            transform: scale(1.05);
-        }
-
-        .product-card img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-
-        .product-card h3 {
-            font-size: 1.5em;
-            margin-top: 10px;
-        }
-
-        .product-card p {
-            color: #555;
-            margin-bottom: 20px;
-        }
-
-        .btn {
-            padding: 10px 20px;
-            background-color: #4CAF50;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-
-        .btn:hover {
-            background-color: #45a049;
-        }
-
-        /* Sidebar Links */
-        .sidebar h3 {
-            font-size: 1.6em;
-            color: #4CAF50;
-        }
-
-        .sidebar ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        .sidebar ul li {
-            margin-bottom: 10px;
-        }
-
-        .sidebar ul li a {
-            text-decoration: none;
-            color: #333;
-            font-size: 1.2em;
-        }
-
-        .sidebar ul li a:hover {
-            color: #4CAF50;
-        }
-
-        /* Footer Section */
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            margin-top: 20px;
-        }
-    </style>
+    <title>OwnIt Homes - Real Estate Tools</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <!-- Header Section -->
     <header>
-        <h1>OwnIt.Homes | Real Estate Tools & Resources</h1>
-    </header>
-
-    <!-- Main Layout -->
-    <div class="container">
-        <!-- Main Content -->
-        <div class="main-content">
-            <h2>Top Real Estate Tools</h2>
-
-            <!-- Product Card Section -->
-            <div class="product-card">
-                <img src="https://via.placeholder.com/500x300.png?text=Calculators" alt="Calculators">
-                <h3>Real Estate Calculators</h3>
-                <p>Evaluate home values, mortgage costs, and other key real estate metrics with ease.</p>
-                <a href="#" class="btn">Learn More</a>
-            </div>
-
-            <div class="product-card">
-                <img src="https://via.placeholder.com/500x300.png?text=Reports" alt="Reports">
-                <h3>Property Reports & Analytics</h3>
-                <p>Get detailed property reports with data-driven insights for smarter investment decisions.</p>
-                <a href="#" class="btn">Learn More</a>
-            </div>
-
-            <div class="product-card">
-                <img src="https://via.placeholder.com/500x300.png?text=Consulting" alt="Consulting">
-                <h3>Ask a Pro Consulting</h3>
-                <p>Get personalized expert advice on buying, selling, or investing in real estate.</p>
-                <a href="#" class="btn">Learn More</a>
-            </div>
-
-            <div class="product-card">
-                <img src="https://via.placeholder.com/500x300.png?text=Agent+Tools" alt="Agent Tools">
-                <h3>Agent Tools</h3>
-                <p>Tools to enhance your real estate career, from lead management to contract handling.</p>
-                <a href="#" class="btn">Learn More</a> 
-            </div>
-
-            <div class="product-card">
-                <img src="https://via.placeholder.com/500x300.png?text=Partners" alt="Partners">
-                <h3>Trusted Partners</h3>
-                <p>Partner with the best in the industry for services that help you close more deals.</p>
-                <a href="#" class="btn">Learn More</a>
-            </div>
-
-            <div class="product-card">
-                <img src="https://via.placeholder.com/500x300.png?text=Education" alt="Education">
-                <h3>Real Estate Education</h3>
-                <p>Take your real estate career to the next level with courses, certifications, and expert insights.</p>
-                <a href="#" class="btn">Learn More</a>
-            </div>
-
-            <div class="product-card">
-                <img src="https://via.placeholder.com/500x300.png?text=Discounts" alt="Discounts">
-                <h3>Exclusive Discounts</h3>
-                <p>Access special discounts for real estate tools, services, and products.</p>
-                <a href="#" class="btn">Learn More</a>
-            </div>
-        </div>
-
-        <!-- Sidebar -->
-        <div class="sidebar">
-            <h3>Product Overviews</h3>
+        <div class="logo">OwnIt Homes</div>
+        <nav>
             <ul>
-                <li><a href="#">Real Estate Calculators</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Calculators</a></li>
                 <li><a href="#">Property Reports</a></li>
-                <li><a href="#">Ask a Pro Consulting</a></li>
+                <li><a href="#">Consulting</a></li>
                 <li><a href="#">Agent Tools</a></li>
-                <li><a href="#">Trusted Partners</a></li>
+                <li><a href="#">Partners</a></li>
                 <li><a href="#">Education</a></li>
                 <li><a href="#">Discounts</a></li>
             </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>Empowering Your Real Estate Success</h1>
+        <p>Tools, Insights, and Expert Advice to Make Smarter Property Decisions</p>
+        <a href="#" class="btn">Explore Our Tools</a>
+    </section>
 
-            <h3>Popular Articles</h3>
-            <ul>
-                <li><a href="#">How to Use Real Estate Calculators Effectively</a></li>
-                <li><a href="#">Maximizing Your Real Estate Investment with Analytics</a></li>
-                <li><a href="#">Top Agent Tools for 2025</a></li>
-            </ul>
+    <section class="categories">
+        <div class="category">
+            <h2>Calculators & Budgeting</h2>
+            <p>Affordability, Mortgage, and Investment ROI calculators.</p>
+            <a href="#">Learn More</a>
         </div>
-    </div>
+        <div class="category">
+            <h2>Property Reports & Analytics</h2>
+            <p>Market insights, price trends, and offer strategies.</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="category">
+            <h2>Ask a Pro Consulting</h2>
+            <p>Expert insights from brokers, attorneys, and mortgage pros.</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="category">
+            <h2>Agent Tools</h2>
+            <p>CRM, website builder, and mobile real estate apps.</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="category">
+            <h2>Trusted Partners</h2>
+            <p>Verified lenders, contractors, and service providers.</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="category">
+            <h2>Education</h2>
+            <p>Real estate courses, guides, and webinars.</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="category">
+            <h2>Exclusive Discounts</h2>
+            <p>Special deals on real estate services.</p>
+            <a href="#">Learn More</a>
+        </div>
+    </section>
 
-    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2025 OwnIt.Homes | All Rights Reserved | <a href="#">Privacy Policy</a></p>
+        <p>&copy; 2025 OwnIt Homes. All Rights Reserved.</p>
     </footer>
 </body>
-
 </html>
