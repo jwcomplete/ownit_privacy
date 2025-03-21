@@ -1,1 +1,3 @@
-// Placeholder for any future JS enhancements
+document.addEventListener("DOMContentLoaded", function () {
+    console.log("Website Loaded Successfully!");
+});
