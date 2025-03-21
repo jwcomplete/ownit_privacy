@@ -70,12 +70,12 @@ nav ul li a {
     height: auto;
     border-radius: 10px;
 }
+
 img {
     display: block;  /* Ensures images don't get hidden */
     max-width: 100%; /* Prevents oversized images */
     height: auto;    /* Keeps proper aspect ratio */
 }
-
 
 .card ul {
     padding: 0;
@@ -99,6 +99,7 @@ button {
 button:hover {
     background-color: #5ea65e;
 }
+
 .image-container {
     display: flex;
     justify-content: space-around;
